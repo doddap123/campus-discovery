@@ -1,0 +1,11 @@
+@import "../../styles/_techColors.scss";
+
+.container {
+  height: 100%;
+  padding: 2rem;
+  border-width: 2px;
+  border-color: $techGold;
+  border-radius: 0.5rem;
+  z-index: 1;
+  box-shadow: 0 0 1rem 0.5rem rgba($techGray, 0.25);
+}

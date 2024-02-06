@@ -1,0 +1,20 @@
+@import "../../styles/_mixins.scss";
+@import "../../styles/techColors.scss";
+
+#mapbox {
+  height: 100%;
+  width: 100%;
+}
+
+.mapboxMarker {
+  background: red;
+  border-radius: 100%;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  will-change: transform;
+  opacity: 1;
+  transition: opacity .2s;
+}

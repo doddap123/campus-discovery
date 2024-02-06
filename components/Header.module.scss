@@ -1,0 +1,7 @@
+@import "../styles/_techColors.scss";
+
+#headerContainer {
+  z-index: 99;
+  background-color: $techWhite;
+  box-shadow: 0 6px 12px 0 rgba($techGray, 0.1);
+}

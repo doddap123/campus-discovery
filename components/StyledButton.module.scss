@@ -1,0 +1,21 @@
+@import "../styles/_mixins.scss";
+@import "../styles/_techColors.scss";
+
+.btn {
+  color: $techDarkGold; // Looks better in $techGold but accessibility
+  border: 2px solid $techGold;
+  font-weight: 600;
+  padding: 0.25rem 0.5rem;
+  font-size: 1rem;
+  transition: 0.25s ease all;
+  @include md {
+    font-size: 1.5rem;
+  }
+  border-radius: 0.5rem;
+  background-color: rgba($techWhite, 0.25);
+  @include dark {
+    color: $techWhite;
+    border: 2px solid $techWhite;
+    background-color: rgba($techGray, 0.25);
+  }
+}
